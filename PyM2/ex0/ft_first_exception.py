@@ -1,4 +1,5 @@
 def check_temperature(temp_str: str):
+    """function that handles inputs and validates them"""
     try:
         temp = int(temp_str)
         if (temp > 40):
